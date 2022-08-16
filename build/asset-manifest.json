@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a015013d.css",
-    "main.js": "/static/js/main.a0505bc9.js",
-    "static/js/787.8e2ffa28.chunk.js": "/static/js/787.8e2ffa28.chunk.js",
-    "static/media/headshot.png": "/static/media/headshot.cf448c992b7445632a57.png",
-    "static/media/linkedin_icon.png": "/static/media/linkedin_icon.66ffd29ac1bb3de67249.png",
-    "static/media/logo-transparent.png": "/static/media/logo-transparent.fba47476af5549248bc7.png",
-    "static/media/purdue.webp": "/static/media/purdue.a167dc7b2cd66c40c5eb.webp",
-    "static/media/gmail_icon.png": "/static/media/gmail_icon.4a54252a474879aa951d.png",
-    "index.html": "/index.html",
-    "main.a015013d.css.map": "/static/css/main.a015013d.css.map",
-    "main.a0505bc9.js.map": "/static/js/main.a0505bc9.js.map",
-    "787.8e2ffa28.chunk.js.map": "/static/js/787.8e2ffa28.chunk.js.map"
+    "main.css": "/osu28/static/css/main.a015013d.css",
+    "main.js": "/osu28/static/js/main.86eae502.js",
+    "static/js/787.8e2ffa28.chunk.js": "/osu28/static/js/787.8e2ffa28.chunk.js",
+    "static/media/headshot.png": "/osu28/static/media/headshot.cf448c992b7445632a57.png",
+    "static/media/linkedin_icon.png": "/osu28/static/media/linkedin_icon.66ffd29ac1bb3de67249.png",
+    "static/media/logo-transparent.png": "/osu28/static/media/logo-transparent.fba47476af5549248bc7.png",
+    "static/media/purdue.webp": "/osu28/static/media/purdue.a167dc7b2cd66c40c5eb.webp",
+    "static/media/gmail_icon.png": "/osu28/static/media/gmail_icon.4a54252a474879aa951d.png",
+    "index.html": "/osu28/index.html",
+    "main.a015013d.css.map": "/osu28/static/css/main.a015013d.css.map",
+    "main.86eae502.js.map": "/osu28/static/js/main.86eae502.js.map",
+    "787.8e2ffa28.chunk.js.map": "/osu28/static/js/787.8e2ffa28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a015013d.css",
-    "static/js/main.a0505bc9.js"
+    "static/js/main.86eae502.js"
   ]
 }
