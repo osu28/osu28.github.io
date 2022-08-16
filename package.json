@@ -1,7 +1,7 @@
 {
   "name": "osu",
   "version": "0.1.0",
-  "homepage": "https://osu28.github.io/osu28",
+  "homepage": "https://osu28.github.io",
   "private": true,
   "dependencies": {
     "@expo-google-fonts/cantata-one": "^0.2.2",
