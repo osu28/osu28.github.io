@@ -1,0 +1,343 @@
+/*  @import "react-widgets/scss/styles.scss";
+
+ @use "react-widgets/scss/styles.scss" with (
+   $input-height: 2.5em,
+    Most component variables are forwarded with a namespace
+   $list-selected-bg: #49c6de,
+ ); */
+
+.App {
+  /* text-align: center; */
+  /* min-width: 1000px; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.fav {
+  width: 100px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.fav:hover {
+  filter: drop-shadow(0px 0px 5px rgb(251, 251, 251));
+  transform: translateY(-1px);
+}
+
+.logo {
+  float: left;
+  min-width: 10%;
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Navbar {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  
+}
+
+.buttons {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 300px;
+  margin-right: 60px;
+  height: 100px;
+}
+
+/* CSS */
+.button-27 {
+  /* position: absolute; */
+  /* margin-top: 50px; */
+  /* margin: 50px 50px 50px 50px; */
+  appearance: none;
+  background-color: #00000000;
+  border: 2px solid #00000000;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  /* margin: 25px 25px 30px 10px; */
+  margin-right: 10%;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+h1 {
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: Garamond;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+
+p {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(158, 158, 158);
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 20px;
+  /* margin-left: 85px; */
+  margin-left: 10%;
+  width: 90%;
+  height: 100%;
+}
+
+.intro {
+  width: 100%;
+  height: 90%;
+}
+
+.github {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.github:hover {
+  transform: translateY(-3px);
+}
+
+.linkedin {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 22px;
+  align-items: center;
+}
+
+.linkedin:hover {
+  transform: translateY(-3px);
+}
+
+.gmail {
+  width: 32px;
+  height: 26px;
+  margin-bottom: 2px;
+  align-items: center;
+}
+
+.gmail:hover {
+  transform: translateY(-5px);
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.column_intro_left {
+  float: left;
+  width: 40%;
+  margin-right: 50px;
+  margin-top: 100px;
+  animation: moveToRight 0.4s ease-in-out;
+}
+
+.column_intro_right {
+  float: left;
+  width: 42%;
+  height: 100%;
+  margin-right: 20px;
+  animation: moveToLeft 0.4s ease-in-out;
+}
+
+.controls progress {
+  size: 0px;
+}
+
+.headshot {
+  border-radius: 10px;
+  box-shadow: 0 0 1rem 0 rgba(52, 52, 52, 0.945);
+  height: 12em;
+  width: 12em;
+  margin-top: 130px;
+  margin-left: 20px;
+}
+
+@keyframes moveToRight {
+  0% {
+      transform: translateX(-510px);
+  }
+  100% {
+      transform: translateX(0px);
+  }
+}
+
+@keyframes moveToLeft {
+  0% {
+      transform: translateX(810px);
+  }
+  100% {
+      transform: translateX(0px);
+  }
+}
+
+.about {
+  margin-top: 80px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .purdue {
+    animation: moveToRight 0.4s ease-in-out, spin infinite 15s linear;
+    animation-delay: 0s, 0.4s;
+    width: 100px;
+    height: 100px;
+    /* float: right; */
+    position: absolute;
+    right: 15vw;
+    top: 125px;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.about_description {
+  min-width: 20%;
+  max-width: 85%;
+  animation: moveToRight 0.4s ease-in-out;
+}
+
+.work_description {
+  float: left;
+  width: 50%;
+  height: auto;
+  animation: moveUp 0.4s ease-in-out;
+
+}
+
+@keyframes moveUp {
+  0% {
+      transform: translateY(810px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+.work_history {
+  float: left;
+  width: 40%;
+  margin-top: 60px;
+  margin-left: 8%;
+  animation: moveDown 0.4s ease-in-out;
+}
+
+@keyframes moveDown {
+  0% {
+      transform: translateY(-500px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-image: url("./assets/triangle_pattern.jpg"); */
+  background-size: 2500px 1000px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.select {
+  padding: 10px;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
