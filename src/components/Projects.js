@@ -17,6 +17,7 @@ export const Projects = () => {
   }
   return (
     <div className="projects">
+      <p>🚧 Work in Progress 🚧</p>
       {back}{project}{next}
     </div>
   );
